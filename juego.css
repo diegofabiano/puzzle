@@ -5,7 +5,8 @@ body {
   width: 940px;
   margin: 5% auto;
   min-height: 100%;
-  background-image: url(../images/adventure.jpg);
+  background-image: url(images/BvS_-_Promo_Ciudad_Gótica.png);
+  background-size: cover;
 }
 ul {
   padding-left: 0;
@@ -55,7 +56,7 @@ ul {
 }
 
 .col-60 {
-  background-image: url(../images/pieza-libre.jpg);
+  background-image: url(images/pieza-libre.jpg);
   width: 60%;
   height: 500px;
   float: right;
