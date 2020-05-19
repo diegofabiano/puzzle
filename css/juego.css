@@ -1,0 +1,113 @@
+/*Código armado por La Foca Loca S.A. No modificar*/
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+  animation: fadein 5s;
+}
+h1 {
+  text-align: center;
+  font-family: 'Yeon Sung', cursive;
+}
+ul {
+
+  font-family: 'Supermercado One', cursive;
+  text-align: center;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: gray;
+  height: 500px;
+  width: 40%;
+  float: left;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+   
+}
+.col-40 h2{
+  font-family: 'Supermercado One', cursive;
+  color: black;
+  margin-left: 20px;
+  text-align: center;
+}
+.botones {
+  font-family: 'Supermercado One', cursive;
+  color: black;
+  text-align: center;
+  list-style-type: none;
+  margin-left: -20px;
+  color: black;
+}
+
+.col-60 {
+  background-image: url(../images/pieza-libre.jpg);
+  width: 60%;
+  height: 500px;
+  float: right;
+
+}
+
+#flecha{
+  font-size: 60px;
+  font-family: 'Permanent Marker', cursive;
+  padding: 0px;
+  margin-top: -30px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+#juego {
+  width: 600px;
+  height: 600px;
+
+}
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+  width: 300px;
+  height: 300px;
+
+}
+
+#juego .pieza {
+  width: 31.4%;
+  height: 27.75%;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.pieza img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@media screen and (max-width: 480px) {
+.col-40, .col-60 {
+  display: flex;
+  flex-direction: column;
+}
+}
